@@ -1,0 +1,10 @@
+<div class="jumbotron">
+  <p>Generate</p><br />
+  <select ng-model="selectpriority" ng-options="priority.score for priority in priorities" ng-change="selection(selectpriority)">
+  </select>
+  <br /><p>Generate troops that are {{selectpriority.score}}, with {{selectequip.type}} equipment</p><br />
+
+  <select ng-model="selectlink" ng-options="link.view for link in links" ng-change="go(selectlink)">
+  </select>
+
+</div>
