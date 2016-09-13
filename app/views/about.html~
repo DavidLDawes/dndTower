@@ -1,5 +1,0 @@
-<div class="jumbotron">
-  <p>Generate troops that are {{selectpriority.score}}, with {{selectequip}} equipment</p><br />
-  <select ng-model="selectlink" ng-options="link.view for link in links" ng-change="go(selectlink)">
-  </select>
-</div>

@@ -1,9 +1,0 @@
-<div class="jumbotron">
-<p>Equip</p><br />
-  <select ng-model="selectequip" ng-options="equip.type for equip in equipment" ng-init="equipment[0]" ng-change="selection(selectequip)">
-  </select>
-  <br /><p>Generate troops that are {{selectpriority.score}}, with {{selectequip.type}} equipment</p><br />
-  <select ng-model="selectlink" ng-options="link.view for link in links" ng-change="go(selectlink)">
-  </select>
-</div>
-
