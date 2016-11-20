@@ -1,1 +1,8 @@
+#let bower build this, no git:
+bower_components/
+
+#output, again no git:
+dist/
+
+#node infrastructure, also not git
 node_modules
