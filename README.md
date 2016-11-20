@@ -10,6 +10,7 @@ Presuming you've got node, you can get things ready with (you may need sudo)
 
 Not needed unless you're generating things:
 >npm install -g yo generator-angular generator-karma
+
 clone this archive, I prefer ssh:
 >git clone git@github.com:DavidLDawes/dndTower.git
 
