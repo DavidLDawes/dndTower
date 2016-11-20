@@ -10,11 +10,13 @@ Presuming you've got node, you can get things ready with (you may need sudo)
 
 Not needed unless you're generating things:
 >npm install -g yo generator-angular generator-karma
-clone this, I prefer ssh:
+clone this archive, I prefer ssh:
 >git clone git@github.com:DavidLDawes/dndTower.git
 
 but if you don't have keys setup https works:
 >https://github.com/DavidLDawes/dndTower.git
+
+Either way, switch to the newly cloned directory
 >cd dndTower
 
 Next use npm and bower to get the local stuff installed
